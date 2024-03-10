@@ -1,9 +1,0 @@
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return "o helo moderator"
-if __name__ == '__main__':
-    app.run(host='46.34.192.219', port=7777, debug=True)
